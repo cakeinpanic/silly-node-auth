@@ -1,0 +1,15 @@
+{
+  "name": "silly-node-auth",
+  "main": "server.js",
+  "scripts": {
+    "start": "env PORT=8080 node server.js"
+  },
+  "dependencies": {
+    "bcrypt-nodejs": "latest",
+    "body-parser": "~1.15.2",
+    "cors": "^2.8.5",
+    "express": "~4.14.0",
+    "method-override": "~2.3.6",
+    "morgan": "~1.10.0"
+  }
+}
